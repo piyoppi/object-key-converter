@@ -1,0 +1,22 @@
+{
+  "name": "@piyoppi/object-key-converter",
+  "version": "0.0.1",
+  "description": "convert object keys",
+  "main": "src/main.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "piyoppi",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.0"
+  }
+}
