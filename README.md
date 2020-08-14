@@ -1,8 +1,16 @@
 # @piyoppi/object-key-converter
 
+## Install
+
+```
+npm install --save @piyoppi/object-key-converter
+```
+
 ## Example
 
 ```js
+import { convertKey } from '@piyoppi/object-key-converter';
+
 const map = [
   ['hoge', 'a'],
   ['fuga', 'b'],
@@ -42,6 +50,8 @@ console.log(convertKey(obj, map, false));
 ---
 
 ```js
+import { convertKey } from '@piyoppi/object-key-converter';
+
 const map = [
   ['hoge', 'a'],
   ['fuga', 'b'],
